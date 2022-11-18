@@ -1,9 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Button } from "./components/Button/Button";
+
+import "./index.scss";
 
 function App() {
   return (
-    <div></div>
+    <div className="app">
+      <Button />
+    </div>
   )
 }
 
