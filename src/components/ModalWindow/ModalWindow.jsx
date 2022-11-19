@@ -6,12 +6,13 @@ export function ModalWindow() {
   return (
     <div className="modalWindow">
       <div className="titleBar">
-
+        <div className="closeButton">
+          <img className="cross" src={crossSVG} alt="cross" />
+        </div>
       </div>
       <div className="body">
 
       </div>
-      {/* <img src={crossSVG} alt="cross" /> */}
     </div>
   )
 }
