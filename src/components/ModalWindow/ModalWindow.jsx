@@ -1,6 +1,7 @@
 import React from "react";
 import "./ModalWindow.scss";
 import crossSVG from "./../../media/cross.svg";
+import modalWindowGIF from "./../../media/modalWindowGIF.gif";
 
 export function ModalWindow(props) {
   return (
@@ -12,7 +13,9 @@ export function ModalWindow(props) {
           </div>
         </div>
         <div className="body">
-
+          <div className="container">
+            <img className="image" src={modalWindowGIF} alt="magic" />
+          </div>
         </div>
       </div>
     </div>
